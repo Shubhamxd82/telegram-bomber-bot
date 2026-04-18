@@ -9,7 +9,8 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, MessageH
 from api_bomber import APIBomber
 
 # CONFIG
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8725864429:AAEGxnXUzWoBbNwvk7Ypodno70jxJ5wTipc")
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "8794642689"))
 PORT = int(os.environ.get("PORT", 5000))
 
 logging.basicConfig(level=logging.INFO)

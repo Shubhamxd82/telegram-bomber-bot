@@ -296,7 +296,7 @@ if __name__ == "__main__":
     
     # Start Flask
     logger.info(f"Starting Flask server on port {PORT}")
-    app.run(host="0.0.0.0", port=PORT)        await query.edit_message_text("❌ No active attack", parse_mode="Markdown")
+    app.run(host="0.0.0.0", port=PORT)
     
     elif query.data == "help":
         await query.edit_message_text(
